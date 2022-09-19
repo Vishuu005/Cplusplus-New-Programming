@@ -1,0 +1,68 @@
+# C++ Identifiers
+
+C++ identifiers in a program are used to refer to the name of the variables, functions, arrays, or 
+other user-defined data types created by the programmer. They are the basic requirement of any language.
+ Every language has its own rules for naming the identifiers.
+
+In short, we can say that the C++ identifiers represent the essential elements in a program 
+which are given below:
+
+1.Constants
+2.Variables
+3.Functions
+4.Labels
+5.Defined data types
+**********************************************************************************************************************************************************************************
+# Some naming rules are common in both C and C++. They are as follows:
+
+Only alphabetic characters, digits, and underscores are allowed.
+The identifier name cannot start with a digit, i.e., the first letter should be alphabetical. After the first letter, we can use letters, digits, or underscores.
+In C++, uppercase and lowercase letters are distinct. Therefore, we can say that C++ identifiers are case-sensitive.
+A declared keyword cannot be used as a variable name.
+AD
+***********************************************************************************************************************************************************************
+For example, suppose we have two identifiers, named as 'FirstName', and 'Firstname'. 
+Both the identifiers will be different as the letter 'N' in the first case in uppercase 
+while lowercase in second. 
+Therefore, it proves that identifiers are case-sensitive.
+*************************************************************************************************************************************************************************************
+1.Valid Identifiers
+# The following are the examples of valid identifiers are:
+
+Result  
+Test2  
+_sum  
+power  
+
+******************************************************************************************************************************************************************************************
+2.Invalid Identifiers
+
+Sum-1   // containing special character '-'.  
+2data    // the first letter is a digit.   
+break    // use of a keyword.  
+
+Let's look at a simple example to understand the concept of identifiers.
+
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+    int a;  
+    int A;  
+    cout<<"Enter the values of 'a' and 'A'";  
+    cin>>a;  
+    cin>>A;  
+    cout<<"\nThe values that you have entered are : "<<a<<" , "<<A;  
+    return 0;  
+
+
+********************************************************************************************************************************************************************************************************
+# Output Of concept
+On Command Prompt terminal
+
+Enter the value of 'a' And 'A'
+
+5
+6
+
+The Value that You have Entered : 5 ,6
