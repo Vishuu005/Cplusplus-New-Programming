@@ -1,0 +1,47 @@
+# C++ Tutorial
+
+C++ tutorial provides basic and advanced concepts of C++. Our C++ tutorial is designed for 
+beginners and professionals.
+C++ is an object-oriented programming language. It is an extension to C programming.
+
+Our C++ tutorial includes all topics of C++ such as first example, control statements, 
+objects and classes, inheritance, constructor, destructor, this, static, polymorphism, abstraction, 
+abstract class, interface, namespace, encapsulation, arrays, strings, exception handling, File IO, etc.
+*******************************________________________________**********************************************
+# What is C++
+
+C++ is a general purpose, case-sensitive, free-form programming language that supports object-oriented, procedural and generic programming.
+
+C++ is a middle-level language, as it encapsulates both high and low level language features.
+Object-Oriented Programming (OOPs)
+C++ supports the object-oriented programming, the four major pillar of 
+object-oriented programming (OOPs) used in C++ are:
+
+1.Inheritance
+2.Polymorphism
+3.Encapsulation
+4.Abstraction
+*****************************_____________________________________******************************************
+# C++ Standard Libraries
+Standard C++ programming is divided into three important parts:
+
+1.The core library includes the data types, variables and literals, etc.
+2.The standard library includes the set of functions manipulating strings, files, etc.
+3.The Standard Template Library (STL) includes the set of methods manipulating a data structure.
+
+***************************______________________________________*******************************************
+
+# Usage of C++
+By the help of C++ programming language, we can develop different types of secured and robust applications:
+
+1.Window application
+2.Client-Server application
+3.Device drivers
+4.Embedded firmware etc
+
+***************************______________________________________********************************************
+# C++ Program
+In this tutorial, all C++ programs are given with C++ compiler so that you can easily change 
+the C++ program code.
+
+File: main.cpp
