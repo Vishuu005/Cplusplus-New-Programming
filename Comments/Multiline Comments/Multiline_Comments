@@ -1,0 +1,26 @@
+# C++ Multi Line Comment
+The C++ multi line comment is used to comment multiple lines of code. 
+It is surrounded by slash and asterisk (/∗ ..... ∗/). 
+Let's see an example of multi line comment in C++.
+
+
+
+*********************************************************************************************
+
+
+#include <ostream>  
+using namespace std;  
+int main()  
+{  
+/* declare and   
+print variable in C++. */   
+ int x = 35;     
+ cout<<x<<"\n";         
+}  
+
+
+***************************************************************************************************************
+
+Output:
+
+35

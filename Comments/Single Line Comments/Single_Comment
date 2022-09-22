@@ -1,0 +1,36 @@
+// # C++ Comments
+// The C++ comments are statements that are not executed by the compiler. 
+// The comments in C++ programming can be used to provide explanation of the code,
+//  variable, method or class. By the help of comments, you can hide the program code also.
+
+
+
+***********************************************************************************************
+
+There are two types of comments in C++.
+
+************************************************************************************************
+
+1.Single Line comment
+2.Multi Line comment
+
+
+C++ Single Line Comment
+The single line comment starts with // (double slash). Let's see an example of single line comment in C++.
+
+***********************************************************************************************************
+
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+ int x = 11; // x is a variable      
+ cout<<x<<"\n";         
+}  
+
+
+
+*********************************************************************************************************
+Output:
+
+11
