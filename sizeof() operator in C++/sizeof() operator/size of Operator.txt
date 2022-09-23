@@ -1,0 +1,14 @@
+sizeof() operator in C++
+The sizeof() is an operator that evaluates the size of data type, constants, variable. It is a compile-time operator as it returns the size of any variable or a constant at the compilation time.
+
+The size, which is calculated by the sizeof() operator, is the amount of RAM occupied in the computer.
+
+Syntax of the sizeof() operator is given below:
+
+sizeof(data_type);  
+In the above syntax, the data_type can be the data type of the data, variables, constants, unions, structures, or any other user-defined data type.
+
+The sizeof () operator can be applied to the following operand types:
+
+When an operand is of data type
+If the parameter of a sizeof() operator contains the data type of a variable, then the sizeof() operator will return the size of the data type.
