@@ -1,0 +1,34 @@
+C++ Reference vs Pointer
+C++ reference and pointer seem to be similar, but there are some differences that exist between them. A reference is a variable which is another name of the existing variable, while the pointer is variable that stores the address of another variable.
+
+What is Reference?
+A reference is a variable that is referred to as another name for an already existing variable. The reference of a variable is created by storing the address of another variable.
+
+A reference variable can be considered as a constant pointer with automatic indirection. Here, automatic indirection means that the compiler automatically applies the indirection operator (*).
+
+Example of reference:
+
+int &a = i;  
+In the above declaration, 'a' is an alias name for 'i' variable. We can also refer to the 'i' variable through 'a' variable also.
+
+Let's understand through an example.
+
+#include <iostream>  
+using namespace std;  
+int main()  
+{    
+   int i=8;    // variable initialization  
+   int &a=i; // creating a reference variable  
+   cout<<"The value of 'i' variable is :"<<a;  
+   return 0;  
+}  
+In the above code, we have created a reference variable, i.e., 'a' for 'i' variable. After creating a reference variable, we can access the value of 'i' with the help of 'a' variable.
+
+What is Pointer?
+A pointer is a variable that contains the address of another variable. It can be dereferenced with the help of (*) operator to access the memory location to which the pointer points.
+
+Differences between Reference and Pointer
+The following are the differences between reference and pointer:
+
+Definition
+A reference variable is another name for an already existing variable. It is mainly used in 'pass by reference' where the reference variable is passed as a parameter to the function and the function to which this variable is passed works on the original copy of the variable.
