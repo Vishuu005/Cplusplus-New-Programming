@@ -1,0 +1,54 @@
+malloc() vs new in C++
+Both the malloc() and new in C++ are used for the same purpose. 
+They are used for allocating memory at the runtime. But, malloc() and new have different syntax.
+ The main difference between the malloc() and new is that the new is an operator while
+ malloc() is a standard library function that is predefined in a stdlib header file.
+
+What is new?
+The new is a memory allocation operator, which is used to allocate the memory at the runtime.
+ The memory initialized by the new operator is allocated in a heap. It returns the 
+ starting address of the memory, which gets assigned to the variable. 
+ The functionality of the new operator in C++ is similar to the malloc()
+  function, which was used in the C programming language. C++ is compatible 
+  with the malloc() function also, but the new operator is mostly used because of its advantages.
+
+# Syntax of new operator
+
+type variable = new type(parameter_list);  
+In the above syntax
+
+type: It defines the datatype of the variable for which the memory is
+ allocated by the new operator.
+
+variable: It is the name of the variable that points to the memory.
+
+parameter_list: It is the list of values that are initialized to a variable.
+
+The new operator does not use the sizeof() operator to allocate the memory.
+ It also does not use the resize as the new operator allocates sufficient memory 
+ for an object. It is a construct that calls the constructor at the time of
+  declaration to initialize an object.
+
+As we know that the new operator allocates the memory in a heap; if the memory 
+is not available in a heap and the new operator tries to allocate the memory,
+ then the exception is thrown. If our code is not able to handle the exception,
+  then the program will be terminated abnormally.
+
+
+**************************************************************************************
+
+
+  Let's understand the new operator through an example.
+
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+ int *ptr;  // integer pointer variable declaration  
+ ptr=new int; // allocating memory to the pointer variable ptr.  
+ std::cout << "Enter the number : " << std::endl;  
+ std::cin >>*ptr;  
+ std::cout << "Entered number is " <<*ptr<< std::endl;  
+return 0;  
+}  
+Output:

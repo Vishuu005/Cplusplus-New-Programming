@@ -1,0 +1,16 @@
+C++ Object and Class
+Since C++ is an object-oriented language, program is designed using objects and classes in C++.
+
+C++ Object
+In C++, Object is a real world entity, for example, chair, car, pen, mobile, laptop etc.
+
+In other words, object is an entity that has state and behavior. Here, state means data and behavior means functionality.
+
+Object is a runtime entity, it is created at runtime.
+
+Object is an instance of a class. All the members of the class can be accessed through object.
+
+Let's see an example to create object of student class using s1 as the reference variable.
+
+Student s1;  //creating an object of Student      
+In this example, Student is the type and s1 is the reference variable that refers to the instance of Student class.
